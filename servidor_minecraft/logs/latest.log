@@ -1,0 +1,891 @@
+[04Sep2024 06:45:37.063] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[04Sep2024 06:45:37.069] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[04Sep2024 06:45:39.054] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Kamigami2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[04Sep2024 06:45:39.844] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
+[04Sep2024 06:45:39.847] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[04Sep2024 06:45:39.848] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[04Sep2024 06:45:39.850] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[04Sep2024 06:45:40.187] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[04Sep2024 06:45:44.287] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Sep2024 06:45:44.534] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[04Sep2024 06:45:44.619] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[04Sep2024 06:45:44.642] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Sep2024 06:45:44.789] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Sep2024 06:45:44.871] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[04Sep2024 06:45:45.663] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:45.673] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:46.047] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[04Sep2024 06:45:46.048] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[04Sep2024 06:45:46.099] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[04Sep2024 06:45:46.100] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found cucumber.mixins.json:RecipeEventJSMixin
+[04Sep2024 06:45:46.500] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[04Sep2024 06:45:51.858] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:51.859] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:52.232] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:52.234] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Sep2024 06:45:54.266] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[04Sep2024 06:45:56.595] [main/INFO] [quark/]: TerraBlender not found, using injection method
+[04Sep2024 06:45:57.195] [main/WARN] [mixin/]: Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
+[04Sep2024 06:45:57.927] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[04Sep2024 06:45:57.990] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[04Sep2024 06:45:58.025] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[04Sep2024 06:46:00.014] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Sep2024 06:46:00.051] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[04Sep2024 06:46:00.069] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.PearlerZombie
+[04Sep2024 06:46:00.075] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.FisherZombie
+[04Sep2024 06:46:00.082] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.DiggerZombie
+[04Sep2024 06:46:00.093] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchPotionThrowing
+[04Sep2024 06:46:00.096] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchFleeTarget
+[04Sep2024 06:46:00.113] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.ThirstyWitches
+[04Sep2024 06:46:00.115] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.DarkArtWitch
+[04Sep2024 06:46:00.124] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.feature.VillagerAttacking
+[04Sep2024 06:46:00.126] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.ThrowingWeb
+[04Sep2024 06:46:00.129] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.Misc
+[04Sep2024 06:46:00.131] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonShoot
+[04Sep2024 06:46:00.133] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonFleeTarget
+[04Sep2024 06:46:00.133] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: No module found with ID enhancedai:mobs
+[04Sep2024 06:46:00.134] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.feature.GhastShoot
+[04Sep2024 06:46:00.167] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.ItemDisruption
+[04Sep2024 06:46:00.168] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.GetOverHere
+[04Sep2024 06:46:00.181] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.feature.DrownedSwimming
+[04Sep2024 06:46:00.184] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.feature.CreeperSwell
+[04Sep2024 06:46:00.200] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.feature.BlazeAttack
+[04Sep2024 06:46:00.211] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Targeting
+[04Sep2024 06:46:00.215] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Shielding
+[04Sep2024 06:46:00.217] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Movement
+[04Sep2024 06:46:00.231] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Base
+[04Sep2024 06:46:00.234] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AvoidExplosions
+[04Sep2024 06:46:00.243] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Attacking
+[04Sep2024 06:46:00.246] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AntiCheese
+[04Sep2024 06:46:00.263] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.feature.AnimalAttacking
+[04Sep2024 06:46:00.606] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod enchantinginfuser
+[04Sep2024 06:46:00.755] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[04Sep2024 06:46:00.828] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[04Sep2024 06:46:00.872] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[04Sep2024 06:46:01.085] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
+[04Sep2024 06:46:01.087] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
+[04Sep2024 06:46:01.247] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[04Sep2024 06:46:02.129] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
+[04Sep2024 06:46:02.142] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[04Sep2024 06:46:02.142] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
+[04Sep2024 06:46:02.143] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[04Sep2024 06:46:02.164] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[04Sep2024 06:46:02.165] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[04Sep2024 06:46:02.166] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[04Sep2024 06:46:02.167] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
+[04Sep2024 06:46:02.167] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[04Sep2024 06:46:02.168] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[04Sep2024 06:46:02.169] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[04Sep2024 06:46:02.169] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[04Sep2024 06:46:02.170] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[04Sep2024 06:46:02.174] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[04Sep2024 06:46:02.178] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[04Sep2024 06:46:02.184] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[04Sep2024 06:46:02.185] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[04Sep2024 06:46:02.187] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[04Sep2024 06:46:02.188] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[04Sep2024 06:46:02.200] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[04Sep2024 06:46:02.210] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[04Sep2024 06:46:02.218] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[04Sep2024 06:46:02.224] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[04Sep2024 06:46:02.226] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[04Sep2024 06:46:02.227] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[04Sep2024 06:46:02.237] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[04Sep2024 06:46:02.243] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[04Sep2024 06:46:02.251] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[04Sep2024 06:46:02.252] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[04Sep2024 06:46:02.253] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[04Sep2024 06:46:02.259] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[04Sep2024 06:46:02.262] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[04Sep2024 06:46:02.266] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[04Sep2024 06:46:02.273] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
+[04Sep2024 06:46:02.278] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[04Sep2024 06:46:02.285] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[04Sep2024 06:46:02.285] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[04Sep2024 06:46:02.287] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[04Sep2024 06:46:02.287] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[04Sep2024 06:46:02.290] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[04Sep2024 06:46:02.291] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[04Sep2024 06:46:02.296] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[04Sep2024 06:46:02.302] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[04Sep2024 06:46:02.303] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[04Sep2024 06:46:02.309] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[04Sep2024 06:46:02.312] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[04Sep2024 06:46:02.320] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[04Sep2024 06:46:02.325] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[04Sep2024 06:46:02.334] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[04Sep2024 06:46:02.346] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[04Sep2024 06:46:02.355] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[04Sep2024 06:46:02.358] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[04Sep2024 06:46:02.360] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[04Sep2024 06:46:02.368] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[04Sep2024 06:46:02.383] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[04Sep2024 06:46:02.385] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[04Sep2024 06:46:02.385] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[04Sep2024 06:46:02.386] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[04Sep2024 06:46:02.389] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[04Sep2024 06:46:02.400] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[04Sep2024 06:46:02.402] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[04Sep2024 06:46:02.403] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[04Sep2024 06:46:02.404] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[04Sep2024 06:46:02.407] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
+[04Sep2024 06:46:02.408] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[04Sep2024 06:46:02.413] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[04Sep2024 06:46:02.416] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[04Sep2024 06:46:02.417] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[04Sep2024 06:46:02.418] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[04Sep2024 06:46:02.419] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[04Sep2024 06:46:02.420] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[04Sep2024 06:46:02.422] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[04Sep2024 06:46:02.437] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[04Sep2024 06:46:02.438] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[04Sep2024 06:46:02.440] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[04Sep2024 06:46:02.441] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[04Sep2024 06:46:02.443] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[04Sep2024 06:46:02.453] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[04Sep2024 06:46:02.458] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[04Sep2024 06:46:02.461] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[04Sep2024 06:46:02.462] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[04Sep2024 06:46:02.463] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[04Sep2024 06:46:02.464] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[04Sep2024 06:46:02.474] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[04Sep2024 06:46:02.474] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[04Sep2024 06:46:02.475] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[04Sep2024 06:46:02.477] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[04Sep2024 06:46:02.479] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[04Sep2024 06:46:02.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[04Sep2024 06:46:02.484] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[04Sep2024 06:46:02.485] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[04Sep2024 06:46:02.486] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[04Sep2024 06:46:02.487] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[04Sep2024 06:46:02.489] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[04Sep2024 06:46:02.495] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[04Sep2024 06:46:02.496] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[04Sep2024 06:46:02.501] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[04Sep2024 06:46:02.502] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[04Sep2024 06:46:02.507] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[04Sep2024 06:46:02.510] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[04Sep2024 06:46:02.512] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[04Sep2024 06:46:02.514] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[04Sep2024 06:46:02.517] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[04Sep2024 06:46:02.519] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[04Sep2024 06:46:02.523] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[04Sep2024 06:46:02.526] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
+[04Sep2024 06:46:02.530] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[04Sep2024 06:46:02.533] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[04Sep2024 06:46:02.534] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[04Sep2024 06:46:02.538] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[04Sep2024 06:46:02.541] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[04Sep2024 06:46:02.544] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[04Sep2024 06:46:02.547] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[04Sep2024 06:46:02.550] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[04Sep2024 06:46:02.553] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[04Sep2024 06:46:02.559] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[04Sep2024 06:46:02.561] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[04Sep2024 06:46:02.566] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[04Sep2024 06:46:02.572] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[04Sep2024 06:46:02.580] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[04Sep2024 06:46:02.582] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[04Sep2024 06:46:02.583] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[04Sep2024 06:46:02.587] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[04Sep2024 06:46:02.591] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
+[04Sep2024 06:46:02.595] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[04Sep2024 06:46:02.602] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[04Sep2024 06:46:02.603] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[04Sep2024 06:46:02.604] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[04Sep2024 06:46:02.605] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[04Sep2024 06:46:02.608] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
+[04Sep2024 06:46:02.611] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[04Sep2024 06:46:02.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[04Sep2024 06:46:02.617] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[04Sep2024 06:46:02.618] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[04Sep2024 06:46:02.619] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[04Sep2024 06:46:02.621] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[04Sep2024 06:46:02.628] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[04Sep2024 06:46:02.630] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[04Sep2024 06:46:02.642] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[04Sep2024 06:46:02.643] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[04Sep2024 06:46:02.649] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[04Sep2024 06:46:02.650] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[04Sep2024 06:46:02.654] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[04Sep2024 06:46:02.656] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[04Sep2024 06:46:02.662] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[04Sep2024 06:46:02.671] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[04Sep2024 06:46:02.676] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[04Sep2024 06:46:02.678] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[04Sep2024 06:46:02.680] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[04Sep2024 06:46:02.681] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[04Sep2024 06:46:02.683] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[04Sep2024 06:46:02.686] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[04Sep2024 06:46:02.687] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[04Sep2024 06:46:02.689] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[04Sep2024 06:46:02.690] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[04Sep2024 06:46:02.693] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[04Sep2024 06:46:02.694] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[04Sep2024 06:46:02.699] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[04Sep2024 06:46:02.705] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[04Sep2024 06:46:02.708] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[04Sep2024 06:46:02.711] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[04Sep2024 06:46:02.713] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[04Sep2024 06:46:02.715] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[04Sep2024 06:46:02.716] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[04Sep2024 06:46:02.720] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[04Sep2024 06:46:03.010] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[04Sep2024 06:46:03.012] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[04Sep2024 06:46:03.012] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[04Sep2024 06:46:03.013] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[04Sep2024 06:46:03.015] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[04Sep2024 06:46:03.017] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[04Sep2024 06:46:03.017] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[04Sep2024 06:46:03.018] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[04Sep2024 06:46:03.018] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[04Sep2024 06:46:03.018] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[04Sep2024 06:46:03.020] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[04Sep2024 06:46:03.028] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[04Sep2024 06:46:03.029] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[04Sep2024 06:46:03.029] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[04Sep2024 06:46:03.036] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[04Sep2024 06:46:03.036] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[04Sep2024 06:46:03.037] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[04Sep2024 06:46:03.037] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[04Sep2024 06:46:03.037] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[04Sep2024 06:46:03.038] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[04Sep2024 06:46:03.038] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[04Sep2024 06:46:03.039] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[04Sep2024 06:46:03.040] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[04Sep2024 06:46:03.046] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[04Sep2024 06:46:03.047] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[04Sep2024 06:46:03.047] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[04Sep2024 06:46:03.048] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[04Sep2024 06:46:03.048] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[04Sep2024 06:46:03.057] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[04Sep2024 06:46:03.060] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[04Sep2024 06:46:03.061] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[04Sep2024 06:46:03.061] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[04Sep2024 06:46:03.063] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[04Sep2024 06:46:03.063] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[04Sep2024 06:46:03.069] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[04Sep2024 06:46:03.070] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
+[04Sep2024 06:46:03.070] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[04Sep2024 06:46:03.071] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[04Sep2024 06:46:03.074] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[04Sep2024 06:46:03.074] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[04Sep2024 06:46:03.076] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[04Sep2024 06:46:03.076] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[04Sep2024 06:46:03.077] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[04Sep2024 06:46:03.077] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[04Sep2024 06:46:03.077] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[04Sep2024 06:46:03.077] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[04Sep2024 06:46:03.078] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[04Sep2024 06:46:03.078] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[04Sep2024 06:46:03.079] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[04Sep2024 06:46:03.083] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[04Sep2024 06:46:03.085] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[04Sep2024 06:46:03.093] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[04Sep2024 06:46:03.100] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[04Sep2024 06:46:03.101] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[04Sep2024 06:46:03.101] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[04Sep2024 06:46:03.101] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[04Sep2024 06:46:03.102] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[04Sep2024 06:46:03.111] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[04Sep2024 06:46:03.114] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[04Sep2024 06:46:03.127] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[04Sep2024 06:46:03.129] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[04Sep2024 06:46:03.130] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[04Sep2024 06:46:03.130] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[04Sep2024 06:46:03.134] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[04Sep2024 06:46:03.135] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[04Sep2024 06:46:03.135] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[04Sep2024 06:46:03.138] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[04Sep2024 06:46:03.145] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[04Sep2024 06:46:03.147] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[04Sep2024 06:46:03.154] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[04Sep2024 06:46:03.161] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[04Sep2024 06:46:03.162] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[04Sep2024 06:46:03.164] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[04Sep2024 06:46:03.168] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[04Sep2024 06:46:03.170] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[04Sep2024 06:46:03.173] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[04Sep2024 06:46:03.174] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[04Sep2024 06:46:03.178] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[04Sep2024 06:46:03.179] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[04Sep2024 06:46:03.181] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[04Sep2024 06:46:03.186] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[04Sep2024 06:46:03.186] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[04Sep2024 06:46:03.191] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
+[04Sep2024 06:46:03.193] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[04Sep2024 06:46:03.203] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[04Sep2024 06:46:03.210] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[04Sep2024 06:46:03.211] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[04Sep2024 06:46:03.212] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[04Sep2024 06:46:03.219] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[04Sep2024 06:46:03.220] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[04Sep2024 06:46:03.222] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[04Sep2024 06:46:03.229] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[04Sep2024 06:46:03.230] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[04Sep2024 06:46:03.242] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[04Sep2024 06:46:03.242] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[04Sep2024 06:46:03.249] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[04Sep2024 06:46:03.250] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[04Sep2024 06:46:03.251] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[04Sep2024 06:46:03.253] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[04Sep2024 06:46:03.253] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[04Sep2024 06:46:03.260] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
+[04Sep2024 06:46:03.260] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[04Sep2024 06:46:03.261] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[04Sep2024 06:46:03.264] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[04Sep2024 06:46:03.265] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[04Sep2024 06:46:03.265] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[04Sep2024 06:46:03.266] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
+[04Sep2024 06:46:03.266] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[04Sep2024 06:46:03.267] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[04Sep2024 06:46:03.268] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[04Sep2024 06:46:03.269] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[04Sep2024 06:46:03.269] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[04Sep2024 06:46:03.270] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[04Sep2024 06:46:03.270] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[04Sep2024 06:46:03.270] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[04Sep2024 06:46:03.270] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[04Sep2024 06:46:03.271] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[04Sep2024 06:46:03.272] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[04Sep2024 06:46:03.273] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[04Sep2024 06:46:03.273] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[04Sep2024 06:46:03.273] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[04Sep2024 06:46:03.274] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[04Sep2024 06:46:03.274] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[04Sep2024 06:46:03.274] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[04Sep2024 06:46:03.274] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[04Sep2024 06:46:03.274] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[04Sep2024 06:46:03.278] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[04Sep2024 06:46:03.278] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[04Sep2024 06:46:03.281] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[04Sep2024 06:46:03.288] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[04Sep2024 06:46:03.293] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[04Sep2024 06:46:03.297] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[04Sep2024 06:46:03.314] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[04Sep2024 06:46:03.316] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[04Sep2024 06:46:03.316] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[04Sep2024 06:46:03.317] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[04Sep2024 06:46:03.317] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
+[04Sep2024 06:46:03.321] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[04Sep2024 06:46:03.321] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[04Sep2024 06:46:03.322] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[04Sep2024 06:46:03.322] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[04Sep2024 06:46:03.323] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[04Sep2024 06:46:03.323] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[04Sep2024 06:46:03.323] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[04Sep2024 06:46:03.324] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[04Sep2024 06:46:03.324] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[04Sep2024 06:46:03.324] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[04Sep2024 06:46:03.325] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
+[04Sep2024 06:46:03.325] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[04Sep2024 06:46:03.326] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
+[04Sep2024 06:46:03.326] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[04Sep2024 06:46:03.326] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[04Sep2024 06:46:03.327] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[04Sep2024 06:46:03.328] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[04Sep2024 06:46:03.328] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
+[04Sep2024 06:46:03.331] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[04Sep2024 06:46:03.331] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[04Sep2024 06:46:03.331] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[04Sep2024 06:46:03.334] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[04Sep2024 06:46:03.335] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[04Sep2024 06:46:03.335] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[04Sep2024 06:46:03.335] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[04Sep2024 06:46:03.336] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[04Sep2024 06:46:03.336] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[04Sep2024 06:46:03.743] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[04Sep2024 06:46:03.763] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Registry 'enhancedcelestials:lunar/event' was empty after loading
+[04Sep2024 06:46:03.764] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Registry 'enhancedcelestials:lunar/dimension_settings' was empty after loading
+[04Sep2024 06:46:03.879] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[04Sep2024 06:46:04.981] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[04Sep2024 06:46:05.480] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[04Sep2024 06:46:12.776] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[04Sep2024 06:46:14.148] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[04Sep2024 06:46:14.294] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[04Sep2024 06:46:14.295] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[04Sep2024 06:46:14.381] [modloading-worker-0/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: HELLO FROM COMMON SETUP
+[04Sep2024 06:46:14.382] [modloading-worker-0/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: DIRT BLOCK >> minecraft:dirt
+[04Sep2024 06:46:14.400] [modloading-worker-0/INFO] [net.anvian.bedrockplus.BedrockPlusMod/]: Hello from BedrockPlus!
+[04Sep2024 06:46:14.662] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[04Sep2024 06:46:14.673] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[04Sep2024 06:46:14.764] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[04Sep2024 06:46:14.777] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[04Sep2024 06:46:14.786] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[04Sep2024 06:46:14.837] [Thread-4/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at http://maxanier.de/projects/vampirism/versions_integrations.json
+[04Sep2024 06:46:14.884] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
+[04Sep2024 06:46:14.886] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[04Sep2024 06:46:14.890] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[04Sep2024 06:46:14.903] [Thread-5/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[04Sep2024 06:46:15.249] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29d28289]
+[04Sep2024 06:46:15.257] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.12+6240-87f4ae1) is loaded
+[04Sep2024 06:46:15.310] [Thread-4/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Did not find a version of type RELEASE for 1.19.2 (null)
+[04Sep2024 06:46:15.499] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[04Sep2024 06:46:15.544] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[04Sep2024 06:46:15.549] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[04Sep2024 06:46:15.550] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[04Sep2024 06:46:15.559] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[04Sep2024 06:46:22.188] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Sep2024 06:46:27.440] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23297!/assets/.mcassetsroot' uses unexpected schema
+[04Sep2024 06:46:27.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Kamigami2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23297!/data/.mcassetsroot' uses unexpected schema
+[04Sep2024 06:46:29.895] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:30.049] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:30.248] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:30.343] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:30.519] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:30.606] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:31.792] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:31.866] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[04Sep2024 06:46:32.248] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[04Sep2024 06:46:32.412] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[04Sep2024 06:46:34.154] [main/INFO] [Cucumber Library/]: Cucumber registered 0 recipes in 0 ms
+[04Sep2024 06:46:34.345] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[04Sep2024 06:46:34.442] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[04Sep2024 06:46:34.457] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[04Sep2024 06:46:34.559] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[04Sep2024 06:46:34.698] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[04Sep2024 06:46:34.710] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[04Sep2024 06:46:34.756] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[04Sep2024 06:46:34.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[04Sep2024 06:46:34.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[04Sep2024 06:46:34.886] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[04Sep2024 06:46:34.899] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 101 recipes
+[04Sep2024 06:46:35.706] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Sep2024 06:46:35.706] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Sep2024 06:46:35.707] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Sep2024 06:46:35.707] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Sep2024 06:46:35.709] [main/INFO] [placebo/]: Registered 0 additional loot tables.
+[04Sep2024 06:46:35.884] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 4500 recipe advancements
+[04Sep2024 06:46:35.908] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement undead_unleashed:it_burns: Task Advancement{parentId=undead_unleashed:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@5dc95259, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@70bb897e}, criteria={it_burns=net.minecraft.advancements.Criterion@333b1c9b}, requirements=[[it_burns]]}
+[04Sep2024 06:46:35.924] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 875 advancements
+[04Sep2024 06:46:35.936] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[04Sep2024 06:46:35.937] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[04Sep2024 06:46:35.949] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[04Sep2024 06:46:35.951] [main/INFO] [bettervillage/]: Immersive Engineering compatibility is enabled for Better Villages.
+[04Sep2024 06:46:36.003] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 2.911748 ms
+[04Sep2024 06:46:36.093] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 114 dynamic modifiers and 0 modifier redirects in 88.79931 ms
+[04Sep2024 06:46:36.104] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 38 modifier tags for 134 modifiers in 10.771528 ms
+[04Sep2024 06:46:36.104] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 49 enchantment to modifier mappings in 0.711537 ms
+[04Sep2024 06:46:36.108] [main/INFO] [tconstruct/]: Loaded 50 spilling fluids in 2.828793 ms
+[04Sep2024 06:46:36.110] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 80 skill nodes
+[04Sep2024 06:46:36.114] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 12 convertibles
+[04Sep2024 06:46:36.115] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[04Sep2024 06:46:36.116] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[04Sep2024 06:46:36.116] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[04Sep2024 06:46:36.116] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[04Sep2024 06:46:36.117] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[04Sep2024 06:46:36.118] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[04Sep2024 06:46:36.118] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[04Sep2024 06:46:36.119] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[04Sep2024 06:46:36.119] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[04Sep2024 06:46:36.132] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 56 materials in 8.565306 ms
+[04Sep2024 06:46:36.135] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 3.307876 ms
+[04Sep2024 06:46:36.148] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 347 stats loaded for 59 materials in 12.380519 ms
+[04Sep2024 06:46:36.159] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 176 traits loaded for 59 materials in 10.78027 ms
+[04Sep2024 06:46:36.169] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 34 tool definitions in 9.843489 ms
+[04Sep2024 06:46:36.173] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.067232 ms
+[04Sep2024 06:46:36.177] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:no_default_monsters
+[04Sep2024 06:46:40.749] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[04Sep2024 06:46:41.076] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 3 ms
+[04Sep2024 06:46:41.077] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 0 ms
+[04Sep2024 06:46:41.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[04Sep2024 06:46:41.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Sep2024 06:46:41.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Sep2024 06:46:41.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Sep2024 06:46:41.364] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Sep2024 06:46:42.451] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Sep2024 06:46:42.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Sep2024 06:46:42.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Sep2024 06:46:42.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Sep2024 06:46:42.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Sep2024 06:46:42.702] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[04Sep2024 06:46:42.703] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[04Sep2024 06:46:42.971] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.971] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[04Sep2024 06:46:42.972] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[04Sep2024 06:46:42.972] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.972] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[04Sep2024 06:46:42.973] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.973] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[04Sep2024 06:46:42.973] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[04Sep2024 06:46:42.973] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.974] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[04Sep2024 06:46:42.974] [Server thread/INFO] [citadel/]: Added to minecraft:village/plains/houses structure pool
+[04Sep2024 06:46:42.974] [Server thread/INFO] [citadel/]: Added to minecraft:village/desert/houses structure pool
+[04Sep2024 06:46:42.974] [Server thread/INFO] [citadel/]: Added to minecraft:village/savanna/houses structure pool
+[04Sep2024 06:46:42.975] [Server thread/INFO] [citadel/]: Added to minecraft:village/snowy/houses structure pool
+[04Sep2024 06:46:42.975] [Server thread/INFO] [citadel/]: Added to minecraft:village/taiga/houses structure pool
+[04Sep2024 06:46:42.989] [Server thread/INFO] [com.illusivesoulworks.radiantgear.integration.dynamiclights.DynamicLightsModule.CuriosLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.989] [Server thread/INFO] [com.illusivesoulworks.radiantgear.integration.dynamiclights.DynamicLightsModule.CuriosLightSource/]: item config parser identified itemstack 1 glowstone
+[04Sep2024 06:46:42.990] [Server thread/INFO] [com.illusivesoulworks.radiantgear.integration.dynamiclights.DynamicLightsModule.CuriosLightSource/]: item config parser finished, item count: 2
+[04Sep2024 06:46:42.990] [Server thread/INFO] [com.illusivesoulworks.radiantgear.integration.dynamiclights.DynamicLightsModule.CuriosLightSource/]: item config parser identified itemstack 1 torch
+[04Sep2024 06:46:42.990] [Server thread/INFO] [com.illusivesoulworks.radiantgear.integration.dynamiclights.DynamicLightsModule.CuriosLightSource/]: item config parser finished, item count: 1
+[04Sep2024 06:46:42.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Sep2024 06:46:43.675] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[04Sep2024 06:46:43.805] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.805] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.806] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.806] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.806] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.807] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.807] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.807] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.808] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.808] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.808] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.809] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.809] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.809] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.810] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.813] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.813] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.814] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.815] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:43.815] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[04Sep2024 06:46:44.704] [Server thread/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on dramaticdoors.mixins.json:OpenDoorsTaskMixin::handler$zed000$injectStartP1 exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Sep2024 06:46:45.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Sep2024 06:46:51.292] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.295] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.297] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.307] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.308] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.318] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.346] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.361] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.372] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.390] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.395] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.397] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:51.515] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:52.286] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.805] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.806] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.807] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.810] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.814] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.815] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.817] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.818] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.819] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:57.820] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:58.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Sep2024 06:46:58.510] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[04Sep2024 06:46:59.025] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[04Sep2024 06:46:59.659] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14650 ms
+[04Sep2024 06:46:59.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.100s)! For help, type "help"
+[04Sep2024 06:47:00.103] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Sep2024 06:47:00.122] [Server thread/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: HELLO from server starting
+[04Sep2024 06:47:00.126] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[04Sep2024 06:47:00.152] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[04Sep2024 06:47:00.206] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[04Sep2024 06:47:00.208] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[04Sep2024 06:47:00.209] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[04Sep2024 06:47:00.210] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[04Sep2024 06:47:11.492] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[04Sep2024 06:47:11.537] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[04Sep2024 06:47:11.826] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_axe, missing knowledge for {1 prudentium_axe=1.0}
+[04Sep2024 06:47:11.826] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_leggings, missing knowledge for {1 diamond_leggings=1.0}
+[04Sep2024 06:47:11.827] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_sickle, missing knowledge for {1 inferium_sickle=1.0}
+[04Sep2024 06:47:11.827] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_helmet, missing knowledge for {1 prudentium_helmet=1.0}
+[04Sep2024 06:47:11.827] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_shovel, missing knowledge for {1 prudentium_shovel=1.0}
+[04Sep2024 06:47:11.827] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_pickaxe, missing knowledge for {1 imperium_pickaxe=1.0}
+[04Sep2024 06:47:11.827] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_sword, missing knowledge for {1 tertium_sword=1.0}
+[04Sep2024 06:47:11.828] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_hoe, missing knowledge for {1 imperium_hoe=1.0}
+[04Sep2024 06:47:11.828] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_leggings, missing knowledge for {1 inferium_leggings=1.0}
+[04Sep2024 06:47:11.828] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_boots, missing knowledge for {1 inferium_boots=1.0}
+[04Sep2024 06:47:11.828] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_boots, missing knowledge for {1 imperium_boots=1.0}
+[04Sep2024 06:47:11.828] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_helmet, missing knowledge for {1 inferium_helmet=1.0}
+[04Sep2024 06:47:11.829] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_leggings, missing knowledge for {1 prudentium_leggings=1.0}
+[04Sep2024 06:47:11.829] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_pickaxe, missing knowledge for {1 diamond_pickaxe=1.0}
+[04Sep2024 06:47:11.829] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_chestplate, missing knowledge for {1 inferium_chestplate=1.0}
+[04Sep2024 06:47:11.829] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_scythe, missing knowledge for {1 imperium_scythe=1.0}
+[04Sep2024 06:47:11.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_axe, missing knowledge for {1 diamond_axe=1.0}
+[04Sep2024 06:47:11.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_scythe, missing knowledge for {1 prudentium_scythe=1.0}
+[04Sep2024 06:47:11.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_leggings, missing knowledge for {1 tertium_leggings=1.0}
+[04Sep2024 06:47:11.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_scythe, missing knowledge for {1 inferium_scythe=1.0}
+[04Sep2024 06:47:11.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_boots, missing knowledge for {1 prudentium_boots=1.0}
+[04Sep2024 06:47:11.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_boots, missing knowledge for {1 tertium_boots=1.0}
+[04Sep2024 06:47:11.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_axe, missing knowledge for {1 inferium_axe=1.0}
+[04Sep2024 06:47:11.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_chestplate, missing knowledge for {1 tertium_chestplate=1.0}
+[04Sep2024 06:47:11.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_chestplate, missing knowledge for {1 diamond_chestplate=1.0}
+[04Sep2024 06:47:11.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_pickaxe, missing knowledge for {1 tertium_pickaxe=1.0}
+[04Sep2024 06:47:11.832] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_hoe, missing knowledge for {1 prudentium_hoe=1.0}
+[04Sep2024 06:47:11.832] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_sword, missing knowledge for {1 imperium_sword=1.0}
+[04Sep2024 06:47:11.832] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_sword, missing knowledge for {1 diamond_sword=1.0}
+[04Sep2024 06:47:11.832] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_sword, missing knowledge for {1 prudentium_sword=1.0}
+[04Sep2024 06:47:11.833] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_hoe, missing knowledge for {1 tertium_hoe=1.0}
+[04Sep2024 06:47:11.833] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_hoe, missing knowledge for {1 diamond_hoe=1.0}
+[04Sep2024 06:47:11.833] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_shovel, missing knowledge for {1 inferium_shovel=1.0}
+[04Sep2024 06:47:11.833] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_sickle, missing knowledge for {1 imperium_sickle=1.0}
+[04Sep2024 06:47:11.834] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_helmet, missing knowledge for {1 tertium_helmet=1.0}
+[04Sep2024 06:47:11.834] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_boots, missing knowledge for {1 diamond_boots=1.0}
+[04Sep2024 06:47:11.834] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_pickaxe, missing knowledge for {1 prudentium_pickaxe=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_helmet, missing knowledge for {1 diamond_helmet=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_hoe, missing knowledge for {1 inferium_hoe=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_shovel, missing knowledge for {1 imperium_shovel=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_scythe, missing knowledge for {1 tertium_scythe=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_shovel, missing knowledge for {1 tertium_shovel=1.0}
+[04Sep2024 06:47:11.835] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_sickle, missing knowledge for {1 prudentium_sickle=1.0}
+[04Sep2024 06:47:11.836] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_scythe, missing knowledge for {1 diamond_scythe=1.0}
+[04Sep2024 06:47:11.836] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_sword, missing knowledge for {1 inferium_sword=1.0}
+[04Sep2024 06:47:11.836] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_axe, missing knowledge for {1 tertium_axe=1.0}
+[04Sep2024 06:47:11.836] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_chestplate, missing knowledge for {1 prudentium_chestplate=1.0}
+[04Sep2024 06:47:11.836] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_sickle, missing knowledge for {1 diamond_sickle=1.0}
+[04Sep2024 06:47:11.837] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_axe, missing knowledge for {1 imperium_axe=1.0}
+[04Sep2024 06:47:11.837] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_pickaxe, missing knowledge for {1 inferium_pickaxe=1.0}
+[04Sep2024 06:47:11.837] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_sickle, missing knowledge for {1 tertium_sickle=1.0}
+[04Sep2024 06:47:11.837] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_shovel, missing knowledge for {1 diamond_shovel=1.0}
+[04Sep2024 06:47:11.838] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_helmet, missing knowledge for {1 imperium_helmet=1.0}
+[04Sep2024 06:47:11.838] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_chestplate, missing knowledge for {1 imperium_chestplate=1.0}
+[04Sep2024 06:47:11.838] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_leggings, missing knowledge for {1 imperium_leggings=1.0}
+[04Sep2024 06:47:11.839] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 294 milliseconds
+[04Sep2024 06:47:12.097] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify zombie attack target task for translation{key='entity.minecraft.zombie', args=[]}
+[04Sep2024 06:47:12.624] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@601f6f64
+[04Sep2024 06:47:12.695] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify skeleton attack target task for translation{key='entity.minecraft.skeleton', args=[]}
+[04Sep2024 06:47:12.695] [Server thread/WARN] [de.teamlapen.werewolves.entities.ModEntityEventHandler/]: Could not replace skeleton attack target task for translation{key='entity.minecraft.skeleton', args=[]}
+[04Sep2024 06:47:12.701] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify creeper attack target task for translation{key='entity.minecraft.creeper', args=[]}
+[04Sep2024 06:55:22.035] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Silva_htxl[/127.68.57.254:44053] logged in with entity id 1209 at (-1999.699999988079, 65.0, 3321.300000011921)
+[04Sep2024 06:55:22.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Silva_htxl joined the game
+[04Sep2024 06:55:22.133] [Netty Epoll Server IO #0/INFO] [immersiveengineering/]: Recipes for potions: quark:strong_resilience, hmag:hmag.combustion_long, alexsmobs:long_clinging, hmag:hmag.ogre, hmag:hmag.regeneration_3, minecraft:long_strength, minecraft:long_turtle_master, deeperdarker:sculk_affinity, alexsmobs:knockback_resistance, minecraft:slowness, minecraft:harming, minecraft:regeneration, tombstone:discretion, alexsmobs:lava_vision, hmag:hmag.harming_3, alexsmobs:long_soulsteal, alexsmobs:strong_soulsteal, minecraft:strength, alexsmobs:bug_pheromones, minecraft:strong_harming, hmag:hmag.kobold, minecraft:long_fire_resistance, minecraft:water_breathing, quark:resilience, alexsmobs:poison_resistance, alexsmobs:clinging, minecraft:healing, minecraft:strong_healing, tombstone:spectral, minecraft:slow_falling, minecraft:leaping, minecraft:strong_regeneration, tombstone:earthly_garden, tombstone:bait, alexsmobs:strong_knockback_resistance, alexsmobs:speed_iii, minecraft:strong_strength, alexsmobs:long_bug_pheromones, hmag:hmag.voracity, alexsmobs:soulsteal, minecraft:long_swiftness, alexsmobs:long_knockback_resistance, minecraft:long_night_vision, minecraft:water, minecraft:long_water_breathing, minecraft:poison, hmag:hmag.ender_rage, tombstone:frostbite, alexsmobs:long_poison_resistance, tombstone:darkness, minecraft:swiftness, minecraft:long_poison, minecraft:strong_leaping, minecraft:long_slow_falling, tombstone:restoration, minecraft:fire_resistance, hmag:hmag.combustion, minecraft:long_leaping, minecraft:long_slowness, quark:long_resilience, minecraft:turtle_master, hmag:hmag.healing_3, minecraft:strong_slowness, mowziesmobs:poison_resist, minecraft:long_invisibility, hmag:hmag.ender_rage_long, minecraft:night_vision, minecraft:weakness, hmag:hmag.kobold_strong, alexsmobs:long_lava_vision, minecraft:strong_turtle_master, minecraft:strong_poison, minecraft:strong_swiftness, minecraft:awkward, minecraft:invisibility, minecraft:long_regeneration, deeperdarker:long_sculk_affinity, hmag:hmag.ender_rage_strong, minecraft:long_weakness, mowziesmobs:long_poison_resist
+[04Sep2024 06:55:25.323] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3233ms or 64 ticks behind
+[04Sep2024 07:13:15.642] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.643] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.648] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.648] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.652] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.652] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.653] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.654] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.655] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.656] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.677] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.678] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.709] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.711] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.716] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.717] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:15.722] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Input does not contain a key [element_type]: MapLike[{}]
+[04Sep2024 07:13:15.723] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:267) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:751) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23297!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04Sep2024 07:13:25.478] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=-1879, y=8, z=3133}
+[04Sep2024 07:13:30.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:35.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:35.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:35.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:35.970] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:36.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:39.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:13:42.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:14:24.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:14:27.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:15:04.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl moved wrongly!
+[04Sep2024 07:35:35.449] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Silva_htxl lost connection: Disconnected
+[04Sep2024 07:35:35.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Silva_htxl left the game
